@@ -1,22 +1,22 @@
 <!DOCTYPE HTML>
 <html>
-<title>Palindrome.html</title>
+<title>Reverse number</title>
 <script type ="text/javascript">
-function rev_num()
+function revnum()
 {
 var num = prompt("Enter the number to be reveresed :", " ");
-var n= num;
+var a= num;
 var rev = 0, rem;
-while (n>0)
+while (a>0)
 {
-rem = n % 10;
+rem = a % 10;
 rev = rev * 10 + rem ;
-n = Math.floor(n/10);
+a = Math.floor(a/10);
 }
 document.write("The given number is : " +num+ " <br/> The reversed number is : " +rev+ "\n");
 }
  
 </script>
-<body style="background-color:green" onload="rev_num();">
+<body style="background-color:green" onload="revnum();">
 <body>
 </html>
