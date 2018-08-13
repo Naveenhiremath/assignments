@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="parentheses.css">
+<head>
+    <script>
+        function balance(){
+            var s=0,a;
+            var str=document.getElementById("str");
+            a = str.value;
+            for (var i=0;i<str.value.length;i++)
+            {
+                if(a.charAt(i) == "("){
+                    ++s;
+                }
+                else if(a.charAt(i) == ")"){
+                    --s;
+                }
+            }
+            if(s == 0){
+                document.write("length is =",a.length ,"<br> ITs Balanced");
+            }
+            else if(s < 0)
+                alert(") is Not Balanced",-(s),"Are More");
+            else
+                alert(" ( or ) parenthesis is miss placed");
+        }
+    </script>
+    <title>Balance</title>
+</head>
+<body>
+<input type="text" name="str" id="str">
+<button onclick="balance()">Submit</button>
+</body>
+</html>

@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/css" href="non repeated.css">
+<link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
 <head>
 	<title> find the first non-repeated character</title>
-	<script type="text/javascript">
-		function repeated(){
-			var str=document.getElementById("vi").value;
-			for(var i=0;i<str.length;i++){
-if(str.indexOf(str.charAt(i))==str.lastIndexOf(str.charAt(i))){
-alert(str.charAt(i));
-break;
-}
-
-}
-		}
+	<script type="text/javascript" src="nonrepeated.js"></script>
 	</script>
 </head>
-<body style="background-color: yellow" align:"center" >
-	enter a string:<input type="text" name="text" id="vi">
-	<button id="btn" onclick="repeated()">Submit</button>
-	<p id="output"></p>
+<body>
+	Enter a String:<input type="text"  name="text" id="vi">
+	<div id="output"></div>
+	<button id="btn" >Submit</button>
+	
+
+
+	<div class="w3-col s4">
+        <h4>About</h4>
+        <p><a href="https://www.accionlabs.com/">About us</a></p>
+        <p><a href="#">We're hiring</a></p>
+        <p><a href="#">Support</a></p>
+        <p><a href="#">Return</a></p>
+        <p><a href="#">Help</a></p>
+      </div>
 
 
 </body>
 </html>
-
-

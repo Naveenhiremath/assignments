@@ -1,0 +1,24 @@
+
+body {
+    
+    background-color: #cccccc;
+    background-image: url(music-is-my-life.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+h1{
+
+	color:yellow;
+}
+
+div{
+	font-family: Comic Sans MS;
+	font-size: 50px;
+	margin-left: 750px;
+	margin-top: 1px;
+}
+audio{
+	margin-left: 800px;
+	margin-top: 200px;
+}

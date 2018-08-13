@@ -1,0 +1,31 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Pacifico';
+    font-size: 40px;
+    background-image: url(wallpaper.wiki-Cool-Awesome-Wallpapers-HD-PIC-WPE0011878.jpg);
+    background-size: 100%;
+}
+input
+{
+	font-size: 40px;
+	color: black;
+	margin-left: 300px;
+	margin-top: 100px;
+	font-family:"Pacifico";
+
+
+}
+button{
+	font-size: 40px;
+	font-family:"Pacifico"; 
+	
+}
+script
+{
+	font-size: 40px;
+	color:red  ;
+	margin-right: 480px;
+}
+
+}
